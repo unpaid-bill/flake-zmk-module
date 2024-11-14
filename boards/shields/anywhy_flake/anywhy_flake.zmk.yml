@@ -1,0 +1,12 @@
+file_format: "1"
+id: anywhy_flake
+name: Anywhy Flake
+type: shield
+url: https://github.com/axseem/anywhy_flake/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - corne_left
+  - corne_right
