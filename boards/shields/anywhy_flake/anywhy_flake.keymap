@@ -35,9 +35,9 @@
 
         fun {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &bt2      &kp C_BRI_UP  &none      &none      &none     &none     &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &bt1      &kp C_MUTE    &sk LSHFT  &sk LCTRL  &sk LGUI  &sk LALT  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &bt0      &kp C_BRI_DN  &none      &none      &none     &none     &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &none      &kp C_BRI_UP  &none      &none      &none     &none     &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &none      &kp C_MUTE    &sk LSHFT  &sk LCTRL  &sk LGUI  &sk LALT  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &none      &kp C_BRI_DN  &none      &none      &none     &none     &trans
         &trans &trans &trans  &trans  &trans    &trans        &trans     &trans &trans &trans 
             >;
         };
