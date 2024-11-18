@@ -17,7 +17,7 @@
 
         num {
             bindings = <
-&trans  &kp ESC  &kp DEL &kp TAB   &kp BACKSPACE  &kp C_VOL_UP      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp BACKSLASH  &trans
+&trans  &kp ESC  &kp BACKSPACE &kp TAB   &kp ENTER  &kp C_VOL_UP      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp BACKSLASH  &trans
 &trans  &sk LALT &sk LGUI      &sk LCTRL &sk LSHFT  &kp C_PP        &kp MINUS  &kp N4  &kp N5  &kp N6  &kp N0         &trans
 &trans  &kp LEFT &kp DOWN      &kp UP    &kp RIGHT  &kp C_VOL_DN    &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp FSLH       &trans
         &trans &trans  &trans    &trans     &trans                  &trans     &trans  &mo 3  &trans  &trans 
@@ -26,9 +26,9 @@
 
         sym {
             bindings = <
-&trans    &kp PIPE  &kp AMPS  &kp STAR   &kp LPAR &kp PLUS &kp C_BRI_UP   &kp INS   &kp CAPS  &kp CAPS  &none       &trans
+&trans    &kp PIPE  &kp AMPS  &kp STAR   &kp LPAR &kp PLUS &kp C_BRI_UP   &kp INS   &kp CAPS  &kp DEL  &none       &trans
 &trans    &kp RPAR &kp DLLR  &kp PRCNT  &kp CARET &kp UNDER &kp C_MUTE     &sk LSHFT  &sk LCTRL  &sk LGUI  &sk LALT    &trans
-&trans  &kp QMARK  &kp EXCL  &kp AT     &kp HASH  &kp TILDE &kp C_BRI_DN   &kp END   &kp HOME  &kp LBRC   &none    &trans
+&trans  &kp QMARK  &kp EXCL  &kp AT     &kp HASH  &kp TILDE &kp C_BRI_DN   &kp END   &kp HOME  &none   &none    &trans
         &trans &trans &mo 3     &trans         &trans          &trans     &trans     &trans &trans &trans 
             >;
         };
