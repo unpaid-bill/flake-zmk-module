@@ -37,10 +37,10 @@
 
         num {
             bindings = <
-&trans  &kp ESC   &kp ENTER     &kp BACKSPACE  &kp TAB    &none        &none         &kp SLASH  &kp LBKT    &kp RBKT    &kp SEMI   &trans
-&trans  &sk LALT  &sk LGUI      &sk LCTRL      &sk LSHFT  &kp DEL      &kp C_BRI_UP  &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT  &trans
-&trans  &none     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_PP   &kp CAPS     &kp C_BRI_DN  &kp BSLH   &kp C_PREV  &kp C_NEXT  &none      &trans
-        &trans    &trans        &trans         &trans     &trans       &trans        &trans     &mo 3       &trans      &trans 
+&trans  &kp ESC   &kp BACKSPACE  &kp TAB       &kp ENTER   &none        &none         &kp SLASH  &kp LBKT    &kp RBKT    &kp SEMI   &trans
+&trans  &sk LALT  &sk LGUI       &sk LCTRL     &sk LSHFT  &kp DEL      &kp C_BRI_UP  &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT  &trans
+&trans  &none     &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP   &kp CAPS     &kp C_BRI_DN  &kp BSLH   &kp C_PREV  &kp C_NEXT  &none      &trans
+        &trans    &trans         &trans        &trans     &trans       &trans        &trans     &mo 3       &trans      &trans 
             >;
         };
 
