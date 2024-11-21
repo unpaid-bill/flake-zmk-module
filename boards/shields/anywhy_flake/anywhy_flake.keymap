@@ -31,7 +31,7 @@
 &trans  &kp W  &kp F  &kp M      &kp P  &none    &none      &kp X      &kp SQT  &kp J    &kp K  &trans
 &trans  &kp R  &kp S  &kp N      &kp T  &kp B    &kp COMMA  &kp A      &kp E    &kp I    &kp H     &trans
 &trans  &none  &kp C  &kp L      &kp D  &kp G    &kp DOT    &kp U      &kp O    &kp Y  &none   &trans
-        &trans &trans &mo 1 &kp SPACE  &trans    &trans  &kp SHIFT  &mo 2 &none &non
+        &trans &trans &mo 1 &kp SPACE  &trans    &trans  &kp SHIFT  &mo 2 &none &none
             >;
         };
 
