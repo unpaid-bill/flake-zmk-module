@@ -3,32 +3,52 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_z {
+            key-positions = <2 3>;
+            bindings = <&kp Z>;
+        };
+
+        combo_v {
+            key-positions = <26 27>;
+            bindings = <&kp V>;
+        };
+
+        combo_q {
+            key-positions = <27 28>;
+            bindings = <&kp Q>;
+        };
+
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             bindings = <
-&trans  &kp B  &kp L  &kp D      &kp C  &kp V    &kp J      &kp F      &kp O      &kp U    &kp SEMI  &trans
-&trans  &kp N  &kp R  &kp T      &kp S  &kp G    &kp Y      &kp H      &kp A      &kp E    &kp I     &trans
-&trans  &kp X  &kp Q  &kp M      &kp W  &kp Z    &kp K      &kp P      &kp COMMA  &kp DOT  &kp SQT   &trans
-        &trans &trans &mo 1 &kp LSHFT  &trans    &trans  &kp SPACE  &mo 2 &none &none
+&trans  &kp W  &kp F  &kp M      &kp P  &none    &none      &kp X      &kp SQT  &kp J    &kp K  &trans
+&trans  &kp R  &kp S  &kp N      &kp T  &kp B    &kp COMMA  &kp A      &kp E    &kp I    &kp H     &trans
+&trans  &none  &kp C  &kp L      &kp D  &kp G    &kp DOT    &kp U      &kp O    &kp Y  &none   &trans
+        &trans &trans &mo 1 &kp SPACE  &trans    &trans  &kp SHIFT  &mo 2 &none &non
             >;
         };
 
         num {
             bindings = <
-&trans  &kp ESC  &kp BACKSPACE &kp TAB   &kp ENTER  &kp C_VOL_UP      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp BACKSLASH  &trans
-&trans  &sk LALT &sk LGUI      &sk LCTRL &sk LSHFT  &kp C_PP        &kp MINUS  &kp N4  &kp N5  &kp N6  &kp N0         &trans
-&trans  &kp C_PREV &kp C_NEXT  &kp CAPS  &kp DEL  &kp C_VOL_DN    &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp FSLH       &trans
+&trans  &kp ESC  &kp ENTER &kp BACKSPACE &kp TAB  &none       &none  &kp FSLSH  &kp LBKT  &kp RBKT  &kp SEMI  &trans
+&trans  &sk LALT &sk LGUI      &sk LCTRL &sk LSHFT  &kp DEL   &kp C_BRI_UP  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans
+&trans  &none &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP  &kp CAPS  &kp C_BRI_DN  &kp BACKSLASH  &kp C_PREV  &kp C_NEXT  &none       &trans
         &trans &trans  &trans    &trans     &trans                  &trans     &trans  &mo 3  &trans  &trans 
             >;
         };
 
         sym {
             bindings = <
-&trans    &kp PIPE  &kp AMPS  &kp STAR   &kp LPAR &kp PLUS      &kp C_BRI_UP   &kp LEFT   &kp DOWN  &kp UP &kp RIGHT     &trans
-&trans    &kp RPAR &kp DLLR  &kp PRCNT  &kp CARET &kp UNDER     &kp C_MUTE     &sk LSHFT  &sk LCTRL  &sk LGUI  &sk LALT    &trans
-&trans  &kp QMARK  &kp EXCL  &kp AT     &kp HASH  &kp TILDE     &kp C_BRI_DN     &kp HOME  &kp LBKT   &kp RBKT  &none   &trans
+&trans  &kp GRAVE  &kp N9  &kp N8   &kp N7 &none      &none   &none   &none  &none &none     &trans
+&trans  &kp N3 &kp N2  &kp N1  &kp N0 &kp EQUAL     &none     &sk LSHFT  &sk LCTRL  &sk LGUI  &sk LALT    &trans
+&trans  &none  &kp N6  &kp N5  &kp N4  &kp MINUS     &none     &none  &none   &none  &none   &trans
         &trans &trans &mo 3     &trans         &trans          &trans     &trans     &trans &trans &trans 
             >;
         };
