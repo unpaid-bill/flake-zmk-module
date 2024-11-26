@@ -17,7 +17,7 @@
 
         num {
             bindings = <
-&trans  &kp ESC   &kp BACKSPACE  &kp TAB       &kp ENTER  none         &none         &kp SLASH   &kp LBKT    &kp RBKT    &kp BSLSH  &trans
+&trans  &kp ESC   &kp BACKSPACE  &kp TAB       &kp ENTER  &none        &none         &kp SLASH   &kp LBKT    &kp RBKT    &kp BSLSH  &trans
 &trans  &kp LALT  &kp LGUI       &kp LCTRL     &kp LSHFT  &kp DEL      &kp C_BRI_UP  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &trans
 &trans  &none     &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP   &kp CAPS     &kp C_BRI_DN  &kp C_MUTE  &kp C_PREV  &kp C_NEXT  &none      &trans
         &trans    &trans         &trans        &trans     &trans       &trans        &trans      &mo 3       &trans      &trans 
