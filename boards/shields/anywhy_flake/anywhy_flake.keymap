@@ -36,7 +36,7 @@
         fun {
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9  &none       &soft_off     &none         &none         &none         &none         &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &none       &bt BC_CLR    &sk LSHFT     &sk LCTRL     &sk LGUI      &sk LALT      &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &none       &bt BT_CLR    &sk LSHFT     &sk LCTRL     &sk LGUI      &sk LALT      &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &none       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
         &trans   &trans  &trans  &trans  &trans      &trans        &trans        &trans        &trans        &trans
             >;
