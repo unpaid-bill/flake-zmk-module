@@ -9,7 +9,7 @@
         base {
             bindings = <
 &trans  &kp B  &kp L  &kp D  &kp C      &kp V      &kp J   &kp F       &kp O      &kp U    &kp SEMI  &trans
-&trans  &kp N  &kp R  &kp T  &kp S      &kp G      &kp Y   &kp H       &kp A      &kp E    &kp I     &trans&
+&trans  &kp N  &kp R  &kp T  &kp S      &kp G      &kp Y   &kp H       &kp A      &kp E    &kp I     &trans
 &trans  &kp X  &kp Q  &kp M  &kp W      &kp Z      &kp K   &kp P       &kp COMMA  &kp DOT  &kp SQT   &trans
         &trans &trans &mo 1  &kp SPACE  &trans     &trans  &kp LSHIFT  &mo 2      &trans   &trans 
             >;
