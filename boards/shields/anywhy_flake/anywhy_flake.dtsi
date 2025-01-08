@@ -8,10 +8,14 @@
         wakeup-source;
     };
 
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &large_layout;
+    };
+
     large_layout: large_layout {
         compatible = "zmk,physical-layout";
         display-name = "Flake L Layout";
-        kscan = <&kscan0>;
         transform = <&large_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -92,7 +96,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
     medium_layout: medium_layout {
         compatible = "zmk,physical-layout";
         display-name = "Flake M Layout";
-        kscan = <&kscan0>;
         transform = <&medium_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -160,7 +163,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
     small_layout: small_layout {
         compatible = "zmk,physical-layout";
         display-name = "Flake S Layout";
-        kscan = <&kscan0>;
         transform = <&small_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
