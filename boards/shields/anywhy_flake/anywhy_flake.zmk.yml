@@ -2,7 +2,7 @@ file_format: "1"
 id: anywhy_flake
 name: Anywhy Flake
 type: shield
-url: https://github.com/anywhy-io/flake-zmk-module
+url: https://github.com/anywhy-io/flake
 requires: [pro_micro]
 features:
   - keys
