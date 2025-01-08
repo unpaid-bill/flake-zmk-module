@@ -161,7 +161,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
         compatible = "zmk,physical-layout";
         display-name = "Flake S Layout";
         kscan = <&kscan0>;
-        transform = <&matrix_transform_2>;
+        transform = <&small_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   75       0     0     0>
