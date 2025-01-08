@@ -2,11 +2,11 @@ file_format: "1"
 id: anywhy_flake
 name: Anywhy Flake
 type: shield
-url: https://github.com/anywhy-io/zmk-config
+url: https://github.com/anywhy-io/flake-zmk-module
 requires: [pro_micro]
 features:
   - keys
   - studio
 siblings:
-  - corne_left
-  - corne_right
+  - anywhy_flake_left
+  - anywhy_flake_right
