@@ -1,7 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 / {
-    kscan0: kscan_0 {
+    kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
@@ -75,7 +76,7 @@
             ;
     };
 
-    large_transform: keymap_transform_0 {
+    large_transform: large_transform {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <5>;
@@ -144,7 +145,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
             ;
     };
 
-    medium_transform: keymap_transform_0 {
+    medium_transform: medium_transform {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -206,7 +207,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
             ;
     };
 
-    small_transform: keymap_transform_0 {
+    small_transform: small_transform {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
